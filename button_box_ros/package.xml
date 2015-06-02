@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<package>
+  <name>button_box_ros</name>
+  <version>0.0.0</version>
+  <description>ROS bridge for the buttons box (10 multicolor buttons with an arduino embedded)</description>
+  <maintainer email="yoan.mollard@inria.fr">Yoan Mollard</maintainer>
+  <license>GPL3</license>
+  <build_depend>message_generation</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <run_depend>message_runtime</run_depend>
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <export>
+  </export>
+</package>
