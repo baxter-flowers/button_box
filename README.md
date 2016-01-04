@@ -8,6 +8,5 @@ git clone --recursive git@github.com:baxter-flowers/ros_packages.git
 To update after a clone:
 ```
 cd ros_packages
-git submodule init
-git submodule update
+git submodule foreach git pull origin master
 ```
